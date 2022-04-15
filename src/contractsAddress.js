@@ -1,0 +1,6 @@
+export default {
+    abkoin: "0x5DDBE747b50a8988f97901888bB8D2994B13Be20",
+    priceFinder: "0xac2c0EFC6adA1C06d4e40Fa544e752ffba3DeC89",
+    fakeApe: "0x53655d030691fFC33a19Cc07757e0E629AF9f607",
+    auctionHouse: "0x3298ab0498193193A1f96Da94b4a1Ef24C20F14C"
+}
