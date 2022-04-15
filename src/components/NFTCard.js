@@ -135,7 +135,11 @@ const NFTCard = ({
                     Current Price:
                   </Typography>
                   <Typography variant="body2" className={classes.priceAmount}>
-                    {String(currentPrice)} ABK$
+                    {String(currentPrice).substring(
+                      String(currentPrice).length - 10,
+                      String(currentPrice).length
+                    )}{" "}
+                    ABK$
                   </Typography>
                 </div>
                 <Button
